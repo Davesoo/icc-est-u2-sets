@@ -36,3 +36,25 @@ java App
 
 
 ![image](https://github.com/user-attachments/assets/70caacbd-ca8d-42b3-b7da-5c4cb4b52eba)
+
+Agenda ordenada por Apellido - Nombre:
+        Pedro Gonzales - 222222222
+        Pablo Lopez - 222222222
+        Pedro Lopez - 222222222
+        Ana Perez - 987654321
+        Luis Perez - 111111111
+
+Agenda ordenada por Apellido - Nombre - Telefono:
+        Pedro Gonzales - 222222222
+        Pedro Lopez - 123456789
+        Pedro Lopez - 222222222
+        Pablo Lopez - 222222222
+        Luis Perez - 111111111
+        Ana Perez - 987654321
+
+Agenda ordenada por HASHCODE:
+        Pedro Gonzales - 222222222
+        Ana Perez - 987654321
+        Luis Perez - 111111111
+        Pablo Lopez - 222222222
+        Pedro Lopez - 222222222

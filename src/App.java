@@ -1,13 +1,32 @@
 import controllers.*;
+import models.*;
 import java.util.*;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        Sets sets = new Sets();
-        runHashSet(sets);
-        runLinkedSet(sets);
-        runTreeSet(sets);
-        runTreeSetConComparador(sets);
-        runTreeSetConComparadorInverso(sets);
+        
+        ContactoController contacto = new ContactoController();
+
+        System.out.println("Agenda ordenada por Apellido - Nombre:");
+        contacto.runTreeContacto();
+        System.out.println("");
+
+        System.out.println("Agenda ordenada por Apellido - Nombre - Telefono:");
+        contacto.runTreeContactoNumeros();
+        System.out.println("");
+
+        System.out.println("Agenda ordenada por HASHCODE:");
+        contacto.runTreeContactoHash();
+        System.out.println("");
+
+
+
+        // Sets sets = new Sets();
+        // runHashSet(sets);
+        // runLinkedSet(sets);
+        // runTreeSet(sets);
+        // runTreeSetConComparador(sets);
+        // runTreeSetConComparadorInverso(sets);
     }
 
     public static void runHashSet(Sets sets) {
